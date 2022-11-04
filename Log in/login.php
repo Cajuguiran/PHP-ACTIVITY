@@ -37,14 +37,12 @@
         if ($status === $users[0]['UserType']) {
         if ($name === $users[0]['Username']){
         if($password === $users[0]['Password'])
-                    echo '
-                         <div class="alert alert-success alert-dismissible fade show" role="alert">
-                          Welcome to the System: '. $name .'
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                           <span aria-hidden="true">&times;</span>
-                         </button>
-                         </div>
-                         </div>';
+            echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Welcome to the System: '. $name .'
+                    button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>';
                     }
         elseif ($name === $users[1]['Username']){
         if($password === $users[1]['Password'])
@@ -53,8 +51,7 @@
                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    </div>
-                    </div>';
+                </div>';
                     }
         else{
             echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -62,8 +59,7 @@
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                 </button>
-                </div>
-                </div>';
+            </div>';
                     }
             }
         if ($status === $users[2]['UserType']) {
@@ -74,8 +70,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
-                </div>
-                </div>';
+            </div>';
                     }
         elseif ($name === $users[3]['Username']){
         if($password === $users[3]['Password'])
@@ -84,8 +79,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
-                </div>
-                </div>';
+            </div>';
                     }
         else{
             echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -93,8 +87,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 /button>
-                </div>
-                </div>';
+            </div>';
                     }
             }
         if ($status === $users[4]['UserType']) {
@@ -105,7 +98,6 @@
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
             </div>';
     }
     else{
@@ -114,15 +106,12 @@
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
             </div>';
     }
 }
             }        
              
         ?>
-</div>
-    </div>
 </div>
 <!DOCTYPE html>
 <html lang="en">
