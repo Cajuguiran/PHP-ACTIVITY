@@ -39,7 +39,7 @@
         if($password === $users[0]['Password'])
             echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
                     Welcome to the System: '. $name .'
-                    button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>';
@@ -86,7 +86,7 @@
                     Invalid Username / Password
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-                /button>
+                </button>
             </div>';
                     }
             }
